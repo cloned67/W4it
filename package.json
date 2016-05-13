@@ -1,10 +1,10 @@
 {
     "name"              : "w4it"
-  , "version"           : "0.0.2"
+  , "version"           : "0.0.4"
   , "description"       : "A simple module that provides a some simple wait functionality .."
   , "main"              : "main.js"
   , "scripts"     : {
-        "test"          : "test all"
+        "test"          : "mocha --check-leaks test/"
   }
   , "repository"  : {
         "type"          : "git"
@@ -18,4 +18,12 @@
   , "author"            : "Paolo Lioy"
   , "license"           : "CC-BY-NC-4.0"
   , "readmeFilename"    : "README.md"
+  , "bugs"              : {
+        "url": "https://github.com/cloned2k16/W4it/issues"
+  }
+  , "devDependencies"   : {
+        "chai"          : "~3.5.0"
+    ,   "mocha"         : "~2.4.5"
+    
+  }
 }
